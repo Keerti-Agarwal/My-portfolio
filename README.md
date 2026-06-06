@@ -12,7 +12,7 @@ A personal portfolio website to showcase projects and skills, featuring smooth U
 
 ## Tech Stack
 
-HTML5 · CSS3 · Vanilla JavaScript
+HTML5 · CSS3 · JavaScript
 
 ## How to Run
 
