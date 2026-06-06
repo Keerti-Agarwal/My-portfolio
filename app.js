@@ -45,19 +45,6 @@ function closeMenu() {
   document.getElementById("navLinks").classList.remove("open");
 }
 
-// Skill bar animation on scroll
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.querySelectorAll(".skill-bar-fill").forEach(bar => {
-        bar.style.width = bar.dataset.target + "%";
-      });
-    }
-  });
-}, { threshold: 0.3 });
-
-const skillsSection = document.getElementById("skills");
-if (skillsSection) observer.observe(skillsSection);
 
 // Contact form validation
 function handleSubmit(e) {
